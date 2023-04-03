@@ -53,7 +53,7 @@ cat <<SQL | bendsql query
     SearchEngineID SMALLINT NOT NULL,
     SearchPhrase TEXT NOT NULL,
     AdvEngineID SMALLINT NOT NULL,
-    IsArtifical SMALLINT NOT NULL,
+    IsArtificial SMALLINT NOT NULL,
     WindowClientWidth SMALLINT NOT NULL,
     WindowClientHeight SMALLINT NOT NULL,
     ClientTimeZone SMALLINT NOT NULL,
