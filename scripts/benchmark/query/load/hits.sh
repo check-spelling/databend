@@ -49,7 +49,7 @@ cat <<SQL | bendsql query
     MobilePhoneModel TEXT NOT NULL,
     Params TEXT NOT NULL,
     IPNetworkID INTEGER NOT NULL,
-    TraficSourceID SMALLINT NOT NULL,
+    TrafficSourceID SMALLINT NOT NULL,
     SearchEngineID SMALLINT NOT NULL,
     SearchPhrase TEXT NOT NULL,
     AdvEngineID SMALLINT NOT NULL,
